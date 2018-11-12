@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Code-Clicker</title>
+        <link rel="stylesheet" href="game.css">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <script src="main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    </head>
+    <body>
+    <div class="wrapper">
+    <header>
+        <div id="output"></div>
+     </header> 
+    <div id="console">
+    <div id="taskbar">
+         <div id="dot-1" class="dot"></div>
+         <div id="dot-2" class="dot"></div>
+         <div id="dot-3" class="dot"></div>
+        <div id="lvl"></div>
+        <div id="coin"></div>
+     </div>
+     <div id="editor-window">
+     <div id="particle">
+     <ul id="zeilen">
+         <li>1</li>
+         <li>2</li>
+         <li>3</li>
+         <li>4</li>
+         <li>5</li>
+         <li>6</li>
+         <li>7</li>
+     </ul>
+     </div>
+     </div>
+    <progress id="load" value="0" max="1000"></progress>
+    </div>
+    <!--Card-1-->
+    <div class="item-card">
+    <img class="item-img" src="https://www.sololearn.com/Images/NoAvatar.jpg" />
+    <div class="item-text">
+    <h3 class="item-text-head">New Programmer</h3>
+    <span class="item-text-beschreibung">Automatically writes<br>code<br><b>Price: 100€</b>
+    <span class="item-span">auto coding</span>
+    </span>
+    </div>
+    <button id="btn_pay1" class="btn-pay">
+        <i class="fas fa-check"></i>
+    </button>
+    </div>
+    <!--Card-2-->
+    <div class="item-card">
+    <img src="" class="item-img" alt="img">
+    <div class="item-text">
+    <h3 class="item-text-head">Hardware/Software</h3>
+    <span class="item-text-beschreibung">Update youre systems.<br>Write more efficiently<br><b>Price: 1000€</b>
+    <span class="item-span">+speed</span>
+    </span>
+    </div>
+    <button id="btn_pay2" class="btn-pay">
+      <i class="fas fa-check"></i> 
+    </button>
+    </div>
+    <!--Card-3-->
+    <div class="item-card">
+    <img src="" class="item-img" alt="img">
+    <div class="item-text">
+    <h3 class="item-text-head">Company</h3>
+    <span class="item-text-beschreibung">Open a new startup.<br>Get income per second.<br><b>Price: 10.000€</b>
+    <span class="item-span">+100€/s</span>
+    </span>
+    </div>
+    <button id="btn_pay3" class="btn-pay">
+        <i class="fas fa-check"></i>
+    </button>
+    </div>
+    <!--Card-4-->
+    <div class="item-card">
+    <img src="" class="item-img" alt="img">
+    <div class="item-text">
+    <h3 class="item-text-head">Bitcoin</h3>
+    <span class="item-text-beschreibung">Pitch Bitcoin.<br>need experience!<br><b>experience</b>
+    <span class="item-span">+Bitcoins</span>
+    </span>
+    </div>
+    <button id="btn_pay4" class="btn-pay">
+       <i class="fas fa-check"></i>
+    </button>
+    </div>
+        
+        <button id="btn">
+            <span>Klick</span>
+        </button>
+    </div>
+</body>
+</html>
